@@ -7,7 +7,6 @@ public class Stringlogic {
 		Stringlogic s1=new Stringlogic();
 		System.out.println(s1.method(name));
 	}
-
 	private String method(String name) {
 		char[] ch=name.toCharArray();
 		//System.out.println(ch.length);

@@ -6,7 +6,7 @@ public class Exceptionlogic {
 
 		try {
 			System.out.println("inside try");
-		method();	
+	      	method();	
 		}
 		catch (ArithmeticException e) {
 			System.out.println("catched ArithmeticException");

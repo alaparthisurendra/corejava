@@ -29,7 +29,6 @@ public class NumbertoBinary {
             rev=rem+rev;
             n=n/2;  
         }
-        
        return rev;
     }
 }

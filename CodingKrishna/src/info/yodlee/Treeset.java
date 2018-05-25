@@ -1,5 +1,6 @@
 package info.yodlee;
 
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class Treeset {
@@ -12,7 +13,14 @@ public class Treeset {
 	  ts.add(120);
 	  ts.add(1);
 	  ts.add(5);
+	  /*Iterator descendingIterator = ts.descendingIterator();
+	  while(descendingIterator.hasNext())
+	  {
+		  System.out.println(descendingIterator.next());
+	  }*/
 	  System.out.println(ts);
+	  System.out.println("-----");
+	  System.out.println(ts.descendingSet());
 	 
 	}
 

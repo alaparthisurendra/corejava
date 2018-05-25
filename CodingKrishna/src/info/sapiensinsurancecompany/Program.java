@@ -5,7 +5,7 @@ public class Program {
 	public static void main(String[] args) {
 		int i = 10;
 		method(i);
-		/*method("15");*/
+		method("15");
 		
 	}
 

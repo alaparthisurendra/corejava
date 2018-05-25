@@ -7,8 +7,6 @@ public class Methodlogic {
 		System.out.println(m.method());
 
 	}
-	
-	
 
 	public Double Method() {
 		System.out.println("String");
@@ -16,20 +14,16 @@ public class Methodlogic {
 
 	}
 
-	
 	public int method() {
 		System.out.println("int");
 		return 10;
 
 	}
-	
-	/*public Float method()
-	{
-		System.out.println("float");
-		return 100f;
-	}*/
-	public Character method1()
-	{
+
+	/*
+	 * public Float method() { System.out.println("float"); return 100f; }
+	 */
+	public Character method1() {
 		System.out.println("char");
 		return 'c';
 	}

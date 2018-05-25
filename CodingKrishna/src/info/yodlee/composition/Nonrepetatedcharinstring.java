@@ -7,12 +7,12 @@ import java.util.Set;
 public class Nonrepetatedcharinstring {
 
 	public static void main(String[] args) {
-		Countchar("alaparthi");
+		Countchar("alaparthii");
 	}
 
 	private static void Countchar(String suri) {
 		Map<Character, Integer>hm=new HashMap<Character, Integer>();
-		Integer max=2;
+		Integer max=1;
 		char ch[]=suri.toCharArray();
 		for (Character c : ch) {
 			if(hm.containsKey(c))

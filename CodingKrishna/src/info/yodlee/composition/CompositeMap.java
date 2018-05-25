@@ -1,7 +1,8 @@
+
 package info.yodlee.composition;
 
 public class CompositeMap {
-	static abstract class Map {
+	    static abstract class Map {
 		public abstract int map();
 	}
 

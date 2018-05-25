@@ -45,8 +45,8 @@ public class Empolyee {
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
-	}*/
-	
+	}
+	*/
 	
 
 }

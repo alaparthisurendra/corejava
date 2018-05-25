@@ -14,6 +14,7 @@ public class Numberaddition {
 		else
 		{
 			value+=(num%10);
+			System.out.println("values is:"+value);
 			NumberAdding(num/10);
 		}
 		return value;

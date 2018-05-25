@@ -9,20 +9,17 @@ import info.hashmaplogic.Hashmap;
 
 public class nonrepeatedfirstchar {
 
-	Map<Character, Integer> hashMap;
-	Character c;
+	static Map<Character, Integer> hashMap;
+	static Character c;
 
 	public static void main(String[] args) {
 		
 		String s = "Surendra";
-		System.out.println(s);
-		nonrepeatedfirstchar cc = new nonrepeatedfirstchar();
-		cc.nonRepeatedFirstChar(s);
-
+		nonRepeatedFirstChar(s);
+	
 	}
 
-	private void nonRepeatedFirstChar(String s) {
-		System.out.println(s);
+	private static void nonRepeatedFirstChar(String s) {
 
 		char ch[] = s.toCharArray();
 		for (char suri : ch) {
