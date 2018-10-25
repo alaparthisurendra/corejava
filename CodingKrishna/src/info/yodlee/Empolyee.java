@@ -1,17 +1,14 @@
 package info.yodlee;
 
 public class Empolyee {
-	
+
 	private String name;
-	
-	public Empolyee()
-	{
-		
+
+	public Empolyee() {
 	}
-	
-	public Empolyee(String name)
-	{
-		this.name=name;
+
+	public Empolyee(String name) {
+		this.name = name;
 	}
 
 	public String getName() {
@@ -30,23 +27,12 @@ public class Empolyee {
 		return result;
 	}
 
-	/*@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
-		Empolyee other = (Empolyee) obj;
-		if (name == null) {
-			if (other.name != null)
-				return false;
-		} else if (!name.equals(other.name))
-			return false;
-		return true;
-	}
-	*/
 	
+	  @Override public boolean equals(Object obj) { if (this == obj) return true;
+	  if (obj == null) return false; if (getClass() != obj.getClass()) return
+	  false; Empolyee other = (Empolyee) obj; if (name == null) { if (other.name !=
+	 null) return false; } else if (!name.equals(other.name)) return false; return
+	  true; }
+	 
 
 }

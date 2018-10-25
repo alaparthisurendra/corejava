@@ -1,6 +1,7 @@
 package info.longestsubstring;
 
 import java.util.HashMap;
+
 import java.util.Map;
 
 public class Longestsubstring {
